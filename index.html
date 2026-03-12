@@ -1,0 +1,38 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <h2>Box Hunt</h2>
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+    
+    <input type="number" id="timeInput" value="3" min="1"/>
+  </div>
+  
+  <div id="grid"></div>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Mouse Click Number</th>
+        <th>Reaction Time</th>
+      </tr>
+    </thead>
+    <tbody id="resultTable"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>

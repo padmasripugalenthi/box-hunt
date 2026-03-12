@@ -1,0 +1,52 @@
+body {
+  margin: 20px;
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(7, 25px);
+  grid-template-rows: repeat(7,25px);
+  gap:5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding:8px 15px;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.red {
+  background: red;
+  width:20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+          
